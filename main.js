@@ -1,4 +1,4 @@
-const ENDPOINT = "https://orzu-medical-1-production.up.railway.app/submit";
+const ENDPOINT = "https://orzu-medical-2-production.up.railway.app/submit";
 const state = Object.fromEntries(QUESTIONS.map((q) => [q.id, null]));
 const total = QUESTIONS.length;
 const bar = document.getElementById("progressBar");
