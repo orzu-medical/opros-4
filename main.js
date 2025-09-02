@@ -62,7 +62,6 @@ QUESTIONS.forEach((q, idx) => {
 
   slide.innerHTML = `
     <div class="card" data-q="${idx + 1}">
-      <div class="media"><img src="${q.img}" /></div>
       <div class="q">${idx + 1}. ${q.text}</div>
       ${q.muted ? `<div class="muted">${q.muted}</div>` : ""}
       ${inputHtml}
